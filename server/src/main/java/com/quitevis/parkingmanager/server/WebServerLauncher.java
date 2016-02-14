@@ -1,8 +1,9 @@
-package com.quitevis.parkingmanager.server.webserver;
+package com.quitevis.parkingmanager.server;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.quitevis.parkingmanager.server.manager.ParkingManagerModule;
+import com.quitevis.parkingmanager.server.webserver.WebServer;
 import lombok.extern.slf4j.Slf4j;
 
 import java.nio.file.Paths;
